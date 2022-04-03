@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
-    background-image: url('https://www.google.com/logos/fnbx/minesweeper/cta.png');
+    background-image: url('https://wallpaperaccess.com/full/1783536.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,10 +16,13 @@ h1{
     top: 20px;
     font-weight: bold;
     font-size: 55px;
+    color: white;
+    background-color: black;
 }
 .container {
     width: 500px;
     align-content: center;
+  
   }
   
   .grid {
@@ -84,4 +87,21 @@ h1{
   #result {
     margin-top: 5px;
     color: #e76346;
+    background-color: white;
+    
+    
+  }
+  .flags{
+      font-weight: bold;
+      color:black;
+      background-color: white;
+      margin: 0 auto;
+  }
+
+  button{
+      background-color: black;
+      color: white;
+      padding: 15px;
+      margin-top: 30px;
+      border-radius: 8px;
   }
